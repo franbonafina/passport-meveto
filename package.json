@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      "passport-meveto@1.1.0",
+      "/Users/francobonafina/Projects/Meveto/login-server"
+    ]
+  ],
+  "_from": "passport-meveto@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-jOHj/NYa11eOsd9ZWDnkrqEjVdQ=",
+  "_location": "/passport-meveto",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "passport-meveto@1.1.0",
+    "name": "passport-meveto",
+    "escapedName": "passport-meveto",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-meveto/-/passport-meveto-1.1.0.tgz",
+  "_spec": "1.1.0",
+  "_where": "/Users/francobonafina/Projects/Meveto/login-server",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "bugs": {
+    "url": "http://meveto.com/jaredhanson/passport-meveto/issues"
+  },
+  "dependencies": {
+    "@supercharge/strings": "^1.18.0",
+    "passport-oauth2": "1.x.x"
+  },
+  "description": "meveto authentication strategy for Passport.",
+  "devDependencies": {
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x",
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "proxyquire": "1.4.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://meveto.com/jaredhanson/passport-meveto#readme",
+  "keywords": [
+    "passport",
+    "meveto",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "name": "passport-meveto",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@meveto.com/franbonafina/passport-meveto.git"
+  },
+  "scripts": {
+    "test": "mocha --require test/bootstrap/node test/*.test.js"
+  },
+  "version": "1.1.4",
+  "directories": {
+    "lib": "lib"
+  }
+}
