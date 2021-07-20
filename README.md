@@ -1,6 +1,6 @@
-# passport-github
+# passport-meveto
 
-[Passport](http://passportjs.org/) strategy for authenticating with [GitHub](https://github.com/)
+[Passport](http://passportjs.org/) strategy for authenticating with [Meveto](https://meveto.com/)
 using the OAuth 2.0 API.
 
 This module lets you authenticate using Meveto in your Node.js applications.
@@ -33,7 +33,16 @@ and OAuth 2.0 tokens.  The client ID and secret obtained when creating an
 application are supplied as options when creating the strategy.  The strategy
 also requires a `verify` callback, which receives the access token and optional
 refresh token, as well as `profile` which contains the authenticated user's
-GitHub profile.  The `verify` callback must call `cb` providing a user to
+
+
+
+
+
+
+
+
+
+profile.  The `verify` callback must call `cb` providing a user to
 complete authentication.
 
 ```js
@@ -77,9 +86,9 @@ app.get('/auth/meveto/callback',
 Developers using the popular [Express](http://expressjs.com/) web framework can
 refer to an [example](https://github.com/passport/express-4.x-facebook-example)
 as a starting point for their own web applications.  The example shows how to
-authenticate users using Facebook.  However, because both Facebook and GitHub
+authenticate users using Facebook.  However, because both Facebook and Meveto
 use OAuth 2.0, the code is similar.  Simply replace references to Facebook with
-corresponding references to GitHub.
+corresponding references to Meveto.
 
 ## Contributing
 
