@@ -81,17 +81,6 @@ app.get('/auth/meveto/callback',
   });
 ```
 
-## Examples
-
-Developers using the popular [Express](http://expressjs.com/) web framework can
-refer to an [example](https://github.com/passport/express-4.x-facebook-example)
-as a starting point for their own web applications.  The example shows how to
-authenticate users using Facebook.  However, because both Facebook and Meveto
-use OAuth 2.0, the code is similar.  Simply replace references to Facebook with
-corresponding references to Meveto.
-
-## Contributing
-
 #### Tests
 
 The test suite is located in the `test/` directory.  All new features are
@@ -115,6 +104,4 @@ $ make view-cov
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2011-2016 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
 
